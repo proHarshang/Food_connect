@@ -6,6 +6,8 @@ import Donate from './pages/Donate';
 import About from './pages/About';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Ngo from './pages/Ngo';
+import Donor from './pages/Donor';
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
           <Route path="/about" exact element={<About />} ></Route>
           <Route path="/login" exact element={<Login />} ></Route>
           <Route path="/register" exact element={<Register />} ></Route>
+          <Route path="/ngo" exact element={<Ngo />} ></Route>
+          <Route path="/donors" exact element={<Donor />} ></Route>
         </Routes>
       </Layout>
     </Router>

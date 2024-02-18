@@ -17,6 +17,13 @@ body {
   font-family: "Akshar", sans-serif;
 }
 
+input {
+  &:focus-visible {
+    outline: none;
+    border: none;
+  }
+}
+
 nav {
   #nav_interior {
     background-color: $primary;
