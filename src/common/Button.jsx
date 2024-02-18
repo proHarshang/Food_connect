@@ -17,7 +17,7 @@ const Button = ({ children, varient = 'solid', onClick, className }) => {
     }
 
     return (
-        <button className={`flex items-center justify-center gap-2 py-3 px-10 whitespace-nowrap active:scale-[0.98] h-[45px] leading-[normal]`} onClick={onClick}>
+        <button className={`flex items-center justify-center gap-2 py-3 px-10 whitespace-nowrap active:scale-[0.98] h-[45px] leading-[normal] ${style} ${className}`} onClick={onClick}>
             {children}
         </button>
     )
