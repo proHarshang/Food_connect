@@ -8,9 +8,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Register = () => {
     const { register, handleSubmit, errors } = useForm();
+    const [logoFile, setLogoFile] = useState(null);
 
     const onSubmit = (data) => {
+        data.logo = logoFile;
         console.log(data);
+    };
+
+    const handleLogoChange = (event) => {
+        setLogoFile(event.target.files[0]);
     };
 
     return (
@@ -108,7 +114,7 @@ const Register = () => {
 
                             <h5 className='form_heading font-semibold mt-10'>Logo or Visual Identity :</h5>
                             <div className="form__group field w-full">
-                                <input type="file" {...register("logo")} />
+                                <input type="file" accept='image/*' onChange={handleLogoChange} />
                             </div>
 
                             <Button type='submit' className='my-8 w-full'>Sign Up</Button>

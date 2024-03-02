@@ -129,6 +129,7 @@ form {
       &:placeholder-shown ~ .form__label {
         font-size: 1.2rem;
         cursor: text;
+        pointer-events: none;
         top: 20px;
       }
     }
