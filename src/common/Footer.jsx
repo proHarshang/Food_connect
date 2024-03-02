@@ -33,7 +33,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="cursor-pointer rounded-full h-14 aspect-square bg-green-600 flex justify-center items-center m-4 sticky bottom-0 left-full -translate-y-3 -translate-x-3 text-white text-2xl shadow-lg leading-[normal] active:scale-90"><IoChatboxEllipses /></div>
+            <div className="cursor-pointer rounded-full h-14 aspect-square primary_color flex justify-center items-center m-4 sticky bottom-0 left-full -translate-y-3 -translate-x-3 text-white text-2xl shadow-lg leading-[normal] active:scale-90"><IoChatboxEllipses /></div>
             <footer className='mt-9'>
                 <div className="footer_interior py-16 container mx-auto flex max-sm:flex-col justify-between w-11/12 gap-y-12">
                     <div className='useful_links flex max-sm:flex-col gap-x-16 gap-y-14'>
@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                     <div className='social_icons flex items-end max-sm:items-start flex-col justify-between max-sm:gap-y-11'>
                         <div>
-                            <h6 className='mb-6 max-sm:mb-4'>Language</h6>
+                            {/* <h6 className='mb-6 max-sm:mb-4'>Language</h6>
                             <ul>
                                 <li id='region_selection'>
                                     <form>
@@ -77,7 +77,7 @@ const Footer = () => {
                                         </ul>
                                     </form>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <ul type="none" className='flex gap-x-5 max-sm:justify-evenly max-sm:w-full'>
                             <li><a href="#"><FaFacebookF className='w-5 max-sm:w-6 h-5 max-sm:h-6' /></a></li>
