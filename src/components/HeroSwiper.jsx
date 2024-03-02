@@ -15,15 +15,11 @@ export default function HeroSwiper() {
     return (
         <>
             <Swiper pagination={true} modules={[Pagination]} className="HeroSwiper">
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                
+                <SwiperSlide><img src="assets/images/Desk_banner.png" alt="first image" className="w-full h-full"/></SwiperSlide>
+                <SwiperSlide><img src="assets/images/photo04.jpg" alt="first image" className="w-full h-full"/></SwiperSlide>
+                <SwiperSlide><img src="assets/images/slider05.jpg" alt="first image" className="w-full h-full"/></SwiperSlide>
+                
             </Swiper>
         </>
     );

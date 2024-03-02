@@ -33,7 +33,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="cursor-pointer rounded-full h-14 aspect-square bg-green-600 flex justify-center items-center m-4 sticky bottom-0 left-full -translate-y-3 -translate-x-3 text-white text-2xl shadow-lg leading-[normal] active:scale-90"><IoChatboxEllipses /></div>
+            {/* <div className="cursor-pointer rounded-full h-14 aspect-square bg-green-600 flex justify-center items-center m-4 sticky bottom-0 left-full -translate-y-3 -translate-x-3 text-white text-2xl shadow-lg leading-[normal] active:scale-90"><IoChatboxEllipses /></div> */}
             <footer className='mt-9'>
                 <div className="footer_interior py-16 container mx-auto flex max-sm:flex-col justify-between w-11/12 gap-y-12">
                     <div className='useful_links flex max-sm:flex-col gap-x-16 gap-y-14'>
