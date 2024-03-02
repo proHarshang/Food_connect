@@ -65,7 +65,7 @@ const Register = () => {
                                 </div>
                             </div>
                             <div className="form__group field">
-                                <input type="text" className="form__field" placeholder="Address" {...register("address")} />
+                                <textarea {...register("address")} className="form__field" rows="3" placeholder='Address'></textarea>
                                 <label htmlFor="Address" className="form__label">Address</label>
                             </div>
 

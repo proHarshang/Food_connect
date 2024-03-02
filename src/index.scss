@@ -25,6 +25,10 @@ input {
   }
 }
 
+.primary_color {
+  background: $primary;
+}
+
 nav {
   #nav_interior {
     background-color: $primary;

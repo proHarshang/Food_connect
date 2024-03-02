@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                     <div className='social_icons flex items-end max-sm:items-start flex-col justify-between max-sm:gap-y-11'>
                         <div>
-                            <h6 className='mb-6 max-sm:mb-4'>Language</h6>
+                            {/* <h6 className='mb-6 max-sm:mb-4'>Language</h6>
                             <ul>
                                 <li id='region_selection'>
                                     <form>
@@ -77,7 +77,7 @@ const Footer = () => {
                                         </ul>
                                     </form>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <ul type="none" className='flex gap-x-5 max-sm:justify-evenly max-sm:w-full'>
                             <li><a href="#"><FaFacebookF className='w-5 max-sm:w-6 h-5 max-sm:h-6' /></a></li>

@@ -5,15 +5,15 @@ const Button = ({ children, varient = 'solid', onClick, className }) => {
     let style;
 
     if (varient === 'solid') {
-        style = 'bg-black text-white border-2 border-black';
+        style = 'primary_color text-white border-2';
     } else if (varient === 'outline') {
-        style = 'bg-white text-black border-2 border-black hover:text-white hover:bg-black hoverAnimation';
+        style = 'bg-white text-black border-2 border-[#2f71ff] hover:text-white hover:primary_color hoverAnimation';
     } else if (varient === 'secondary') {
         style = 'bg-white text-black font-light border-slate-500 border-2 border-black';
     } else if (varient === 'ghost') {
         style = 'bg-transparent text-black font-light';
     } else {
-        style = 'bg-black text-white border-2 border-black';
+        style = 'primary_color text-white border-2 border-[#2f71ff]';
     }
 
     return (
